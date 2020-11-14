@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+.Headings>h4 {
+    color: blanchedalmond;
+    margin-top: 20px;
+}
+
+.info>h4 {
+    margin-left: 400px;
+}
+
+.descriptions {
+    background-color: rgb(12, 182, 182);
+}
+
+.size {
+    font-size: 40px;
+    color: white;
+    margin-top: 50px;
+}
+
+.paragraph {
+    color: white;
+}
+
+.imgs {
+    width: 500px;
+}
+
+.icons {
+    background-color: rgba(2, 83, 63, 0.986);
+    color: white;
+}
+
+.adjust {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 250px;
+}
+
+h5 {
+    margin-left: 70px;
+}
+
+.nono {
+    margin-left: 80px;
+}
+
+.ps {
+    margin: 0px 40px;
+    margin-bottom: 80px;
+}
+
+.basketicon {
+    margin-left: 90px;
+    color: cyan;
+}
+
+.chaticon {
+    margin-left: 90px;
+    color: cyan;
+}
+
+.subscribeicon {
+    margin-left: 90px;
+    color: cyan;
+}
+
+
+/* Larger than phablet */
+
+@media(max-width:768px) {
+    .info>h4 {
+        margin-left: 10px;
+    }
+    .size {
+        text-align: center;
+        font-size: 40px;
+    }
+    .imgs {
+        width: 300px;
+        margin-left: 20px;
+    }
+    .basketicon {
+        margin-left: 120px;
+    }
+    .chaticon {
+        margin-left: 120px;
+    }
+    .subscribeicon {
+        margin-left: 120px;
+    }
+    h5 {
+        margin-left: 80px;
+    }
+    .nono {
+        margin-left: 110px;
+    }
+    .logos {
+        margin-top: 40px;
+    }
+    .flaskicon {
+        margin-left: 150px;
+        font-size: 60px;
+    }
+    .title {
+        font-size: 25px;
+        text-align: center;
+    }
+    .searchicon {
+        margin-left: 150px;
+        font-size: 60px;
+    }
+    .lightbulbicon {
+        margin-left: 150px;
+        font-size: 60px;
+    }
+    .pencilicon {
+        margin-left: 150px;
+        font-size: 60px;
+    }
+    .para {
+        text-align: center;
+    }
+    .ps {
+        text-align: center;
+    }
+}
+
+
+/* Larger than tablet */
+
+@media (min-width:768px) and (max-width:1024px) {
+    .info>h4 {
+        margin-left: 140px;
+    }
+    .size {
+        text-align: center;
+        font-size: 30px;
+        margin-left: 29px;
+    }
+    .paragraph {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .imgs {
+        margin-top: 170px;
+        width: 340px;
+        margin-left: 10px;
+    }
+    .ps {
+        margin-left: 12px;
+        font-size: 12px;
+    }
+    .flaskicon {
+        font-size: 40px;
+    }
+    .searchicon {
+        font-size: 40px;
+    }
+    .title {
+        margin-left: 10px;
+        margin-top: 80px;
+    }
+    .para {
+        margin-left: 10px;
+    }
+    .basketicon {
+        margin-left: 50px;
+    }
+    .chaticon {
+        margin-left: 50px;
+    }
+    .subscribeicon {
+        margin-left: 50px;
+    }
+    .nono {
+        margin-left: 40px;
+    }
+    h5 {
+        margin-left: 20px;
+    }
+}
+
+
+/* Larger than desktop */
+
+@media (min-width: 1024px) {
+    .info>h4 {
+        margin-left: 190px;
+    }
+    .paragraph {
+        margin-left: 100px;
+    }
+    .size {
+        text-align: center;
+        font-size: 35px;
+    }
+    .imgs {
+        margin-top: 100px;
+        width: 450px;
+        margin-left: 5px;
+    }
+    .logos {
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-bottom: 60px;
+    }
+    .flaskicon {
+        color: orangered;
+        font-size: 40px;
+    }
+    .pencilicon {
+        font-size: 40px;
+    }
+    .searchicon {
+        font-size: 40px;
+    }
+    .lightbulbicon {
+        font-size: 40px;
+    }
+    .title {
+        margin-left: 55px;
+        font-size: 22px;
+    }
+    .para {
+        margin-left: 55px;
+        font-size: 12px;
+    }
+}
+
+
+/* Larger than Desktop HD */
+
+@media (min-width: 1200px) {
+    .info>h4 {
+        margin-left: 280px;
+    }
+    .imgs {
+        margin-top: 100px;
+        width: 490px;
+        margin-left: 45px;
+    }
+    .title {
+        margin-left: 50px;
+        font-size: 30px;
+    }
+    .para {
+        margin-left: 47px;
+    }
+}
